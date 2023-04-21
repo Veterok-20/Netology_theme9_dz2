@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,13 +26,139 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.all {
+  width: 60%;                        
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: gainsboro;
+  padding: 0.3em;
+}
+
+.forSave {   
+  height: 1.3em;
+  padding-top: 3px; 
+  padding-bottom: 3px;   
+  background-color: white;
+  position: relative;
+  border-radius: 0.2em;  
+}
+
+.button {
+  color: white;
+  border-radius: 0.2em; 
+  background-color: dodgerblue;
+  position: absolute;  
+  right: 1.2em;
+  border: 1px solid gray; 
+}
+
+.postList {  
+  list-style-type: none;  
+  padding-left: 0em; 
+}
+
+.postConteiner {                          
+  height: auto;
+  background-color: white;
+  border-radius: 0.2em; 
+  padding-left: 0.7em;
+}
+
+.header {
+  padding-top: 2px;
+  /* padding-left: 2px; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-size: small;
+  flex-direction: row;
+  font-size: small;
+} 
+
+.avatar {
+  width: 2em;
+  height: 2em;  
+  background: #7fee1d;
+  border-radius: 1em;
+  border: 0.1rem solid;  
+}
+
+.userdata {
+  margin-left: 4px;
+}
+
+.userstatus {
+  display: flex;
+  flex-direction: row;
+  font-size: smaller;  
+}
+
+.content {
+  font-size: large;
+  height: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.line {
+  color: gainsboro;
+  margin-right: 0.7em;
+}
+
+.emotions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: small;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2em; 
+  padding-bottom: 0.5em; 
+}
+
+.avatar2 {
+  width: 1.4em;
+  height: 1.4em;  
+  background: #7fee1d;
+  border-radius: 0.7em;
+  border: 0.1rem solid;
+}
+
+.commentblock {
+border: 0.1em solid gray;
+border-radius: 1em;
+/* padding-left: 0.3em; */
+padding: 0.3em;
+background-color: gainsboro;  
+margin-left: 0.2em;
+flex-grow: 2;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.comment {
+/* float: right; */
+font-size: small;
+}
+
+.iconsrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
