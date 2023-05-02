@@ -7,7 +7,7 @@ import NewPost from "../pages/NewPost";
 export function PostList(props) {
     const { posts } = props;
     const navigate = useNavigate();
-
+console.log("posts=", posts);
     if (posts.length = 0) { 
         return (
             <div className="all">
